@@ -1,0 +1,33 @@
+package org.o7planning.springmvcshoppingcart.dao.impl;
+
+import java.util.List;
+
+import org.o7planning.springmvcshoppingcart.dao.OrderDAO;
+import org.o7planning.springmvcshoppingcart.model.CartInfo;
+import org.o7planning.springmvcshoppingcart.model.OrderDetailInfo;
+import org.o7planning.springmvcshoppingcart.model.OrderInfo;
+import org.o7planning.springmvcshoppingcart.model.PaginationResult;
+
+public class OrderDAOImpl implements OrderDAO {
+
+	public void saveOrder(CartInfo cartInfo) {
+		// TODO Auto-generated method stub
+
+	}
+
+	public PaginationResult<OrderInfo> listOrderInfo(int page, int maxResult, int maxNavigationPage) {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	public OrderInfo getOrderInfo(String orderId) {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	public List<OrderDetailInfo> listOrderDetailInfos(String orderId) {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+}

@@ -1,0 +1,13 @@
+package org.o7planning.springmvcshoppingcart.dao.impl;
+
+import org.o7planning.springmvcshoppingcart.dao.AccountDAO;
+import org.o7planning.springmvcshoppingcart.entity.Account;
+
+public class AccountDAOImpl implements AccountDAO {
+
+	public Account findAccount(String userName) {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+}
